@@ -64,7 +64,7 @@ int ganhouColunas() {
 
 int ganhoudiagPrincipal() {
     int i, igual = 1;
-    for(i = 0; i < 2; i++) {
+    for(i = 0; i < 2; i++ ) {
         if(eValido(jogo[i][i]) && jogo[i][i] == jogo[i+1][i+1])
             igual++;
     }
@@ -162,3 +162,4 @@ int main() {
 
     return 0;
 }
+// teste
